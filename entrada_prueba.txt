@@ -1,0 +1,21 @@
+#Válido
+10
+INIT
+CREATE_BRANCH feature-login
+CHECKOUT_BRANCH feature-login
+CREATE_FILE views.py
+CREATE_FILE template.html
+CREATE_FILE requirements.txt
+CREATE_FILE README.md
+COMMIT Agrega vista principal
+PUSH
+PULL_REQUEST
+
+
+#Inválido
+5
+INIT
+CREATE_FILE views.py
+COMMIT hola
+PUSH
+PULL_REQUEST

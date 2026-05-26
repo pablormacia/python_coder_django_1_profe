@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def inicio(request):
     contexto = {
-        "mensaje": "Mensaje modificado desde la rama feature/template"
+        "mensaje": "Mensaje modificado desde la rama feature/template, segunda vez"
     }
 
     return render(request, "template.html", contexto)
